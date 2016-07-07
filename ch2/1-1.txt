@@ -1,0 +1,29 @@
+# Challenge 1
+# Legal and illegal variable names
+# Jay 2016-07-07 18:53:02
+
+Legal variable names are ones that don't begin with a number, and can only contain numbers, letters and underscores
+
+randomvariablename123
+nameforavariable321
+called_this
+
+the above are all legal as they conform to the rules above.
+
+_1123name
+123name
+123413
+
+the above are illegal as they begin with numbers or underscores and won't be recognised by python when attepting to run a script.
+
+
+good names:
+
+variable_name
+name
+random_name_1
+
+bad names
+this_is_a_random_variable_name_number_4323
+randomblahblahblahblahblah
+HiThere_ILike_to_USE_random_letters_caps_andunderscores_fornoreason
