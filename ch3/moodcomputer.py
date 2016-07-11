@@ -9,7 +9,7 @@ print("You are...")
 
 mood = random.randint(1, 3)
 
-if mood == 1
+if mood == 1:
     # Happy
         print ( \
         """
@@ -23,7 +23,7 @@ if mood == 1
 -----------
         """)
 
-elif mood = 2:
+elif mood == 2:
     # Neutral
     print( \
         """
@@ -37,7 +37,7 @@ elif mood = 2:
  -----------
         """)
 
-elif mood = 3:
+elif mood == 3:
     # Sad
     print( \
         """
