@@ -13,9 +13,11 @@ flips = 0
 
 import random
 
-toss = random.randint(1, 2)
 
 while flips < 100:
+
+    toss = random.randint(1, 2)
+
     if toss == heads:
         head_counter += 1
 
@@ -26,7 +28,7 @@ while flips < 100:
         print("Your coin landed on its side. The odds of this happening are " \
         "6000:1")
 
-flips += 1
+    flips += 1
 
 print("The coin landed on heads,", head_counter, " times")
 print("The coin landed on tales,", tales_counter, "times")
