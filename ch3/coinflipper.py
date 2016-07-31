@@ -13,7 +13,7 @@ flips = 0
 
 import random
 
-flip_count = input(int("How many times do you want to flip the coin?\n"))
+flip_count = int(input("How many times do you want to flip the coin?\n"))
 
 while flips < flip_count:
 
