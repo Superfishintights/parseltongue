@@ -23,7 +23,7 @@ tries = 1
 while tries <= turn_limit:
     if guess > the_number:
         print("Lower...")
-    else:
+    elif guess < the_number:
         print("Higher...")
 
 
@@ -31,9 +31,9 @@ while tries <= turn_limit:
     tries  += 1
 
 
-if guess == the_number:
+else:
         print("You guessed it! The number was", the_number)
         print("And it only took you", tries, "tries!\n")
-else:
+
         print("Wow, you're a fucking retard, the number was ", the_number)
 input("\n\nPress the enter key to exit.")
