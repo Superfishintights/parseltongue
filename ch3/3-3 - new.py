@@ -20,20 +20,15 @@ the_number = random.randint(1, 100)
 guess = int(input("Take a guess: "))
 tries = 1
 
-while tries <= turn_limit:
+# Set the end game conditions
+while tries <= turn_limit and guess != the_number:
     if guess > the_number:
-        print("Lower...")
+        print("Lower..")
     elif guess < the_number:
-        print("Higher...")
-
-
-        guess = int(input("Take a guess: "))
-        tries  += 1
-
+        print("Higher..")
 
     else:
-        print("You guessed it! The number was", the_number)
-        print("And it only took you", tries, "tries!\n")
+        guess = int(input("Take a guess: "))
+        tries += 1
 
-        print("Wow, you're a fucking retard, the number was ", the_number)
-input("\n\nPress the enter key to exit.")
+input("\n\nPress any key to exit")
